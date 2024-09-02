@@ -20,6 +20,15 @@ test('has title', async ({ page }) => {
 This file will have the info about test to be run, browsers and other configurations. 
 npx playwright test
 
+## locators
+
+test('has title', async ({ page }) => {
+  await page.goto("https://playwright.dev");
+  await expect(page).toHaveTitle("Playwright");
+  await page.locator('#username').fill('yash8619');
+  await page.locator('#submit').click();
+});
+
 
 
 
