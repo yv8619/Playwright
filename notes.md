@@ -29,7 +29,17 @@ test('has title', async ({ page }) => {
   await page.locator('#submit').click();
 });
 
-
+## how to fetch product n click on add to cart
+const productName = "Zara Coat 4");
+const products = page.locator(".card-body")
+const titles = await page.locator(".card-body b").allTextContents();
+const count = await products.count();
+for(let i=0; i<count; ++i){
+if(await product.nth(i).locator("b").textContent() === productName)
+{ 
+   await product.nth(i).locator("text= Add to cart");
+   break;
+}
 
 
 
