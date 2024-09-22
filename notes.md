@@ -1,6 +1,14 @@
 ## why do we need nodejs for playwright ?
 Playwright is built using JavaScript/TypeScript and designed to run in the Node.js environment. Node.js provides the runtime needed to execute JavaScript code on the server side, which is essential for running Playwright scripts.
 
+## pros
+faster compared to cypress
+JS/TS, Python, Java, C#
+Free parallel execution
+better with iframes
+more comfortable that selenium
+
+
 ## what is chocolatey ?
 Chocolatey is a package manager for Windows that simplifies the installation, configuration, and management of software similarly to apt for Linux distributions or brew for macOS. Chocolatey provides a command-line interface to install, update, and manage software packages.
 
